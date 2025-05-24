@@ -1,6 +1,9 @@
 package com.ContactApp.ContactApp.model;
 
-import org.springframework.data.*;
+
+
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document(collection = "hr_data")
 public class HR {
